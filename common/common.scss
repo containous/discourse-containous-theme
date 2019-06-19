@@ -1,0 +1,65 @@
+//use Open Sans from Google Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+body input,
+body button,
+body select,
+body textarea {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#main-outlet {
+    padding-bottom: 2em;    
+}
+
+@mixin boxShadow {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
+}
+
+@mixin buttonShadow {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+}
+
+//raise and round buttons
+.btn {
+  border-radius: 2px;
+  @include boxShadow;
+}
+
+.sign-up-button,
+.login-button {
+    border-radius: 7px;
+}
+
+//remove shadow from a few buttons
+.d-editor-button-bar .btn,
+.bulk-select-all,
+.bulk-clear-all,
+.period-chooser-header,
+.topic-map .btn.no-text,
+.badge-section .btn,
+#revision .btn,
+#new-account-link,
+#login-link {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+// Custom Styles
+.d-header-icons .d-icon {
+    color: white;
+}
+
+.category-logo.aspect-image {
+    max-width: 50px;
+}
+
+// No floating "new topic" button
+#create-topic {
+    position: relative;
+}
