@@ -14,7 +14,7 @@ body textarea {
 }
 
 #main-outlet {
-    padding-bottom: 2em;    
+    padding-bottom: 2em;
 }
 
 @mixin boxShadow {
@@ -62,4 +62,36 @@ body textarea {
 // No floating "new topic" button
 #create-topic {
     position: relative;
+}
+
+@import "common/foundation/variables";
+
+.d-header {
+  &.hide-menus {
+    .headerLink:not(.keep) {
+      display: none;
+    }
+  }
+}
+
+.custom-header-links {
+  display: inline-flex;
+  align-items: center;
+  padding-right: 1em;
+  margin: 0;
+  .headerLink {
+    list-style: none;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    a {
+      padding: 6px 10px;
+      color: $header_primary;
+      font-size: $font-up-1;
+    }
+  }
+}
+
+.desktop-view .vmo,
+.mobile-view .vdo {
+  display: none !important;
 }
