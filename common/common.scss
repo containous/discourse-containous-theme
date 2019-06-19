@@ -139,7 +139,7 @@ justify-content: center;
 }
 .category-title-header {
 &.traefik {
-  background-image: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard11/uploads/containo/original/1X/e294f816332b3e270d3cbf8c1134a5dc1c81c64f.png);
+  background-image: url($traefik-banner);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -147,12 +147,11 @@ justify-content: center;
      text-indent: -9999px;
      width: 242px;
      height: 77px;
-     background: url(https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard11/uploads/containo/original/1X/847fc5dc6dd808d077d913fdbf227c7a76eae5ba.png) no-repeat;
+     background: url($traefik-logo-horizontal) no-repeat;
      background-size: cover;
   }
 }
 }
-
 
 /***
 Settings for easy footer component
@@ -317,12 +316,6 @@ Settings for easy footer component
 /***
 Settings for versatile banner component
 ***/
-
-@if $display_on_desktop == "false" {
-  .banner-box {
-    display: none !important;
-  }
-}
 
 $banner_letter_spacing: 0.01em;
 

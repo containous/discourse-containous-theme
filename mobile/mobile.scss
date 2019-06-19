@@ -60,3 +60,13 @@ aside.quote {
     }
   }
 }
+
+/***
+Settings for versatile banner component
+***/
+
+@if $display_on_desktop == "false" {
+  .banner-box {
+    display: none !important;
+  }
+}
