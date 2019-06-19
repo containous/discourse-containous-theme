@@ -61,11 +61,6 @@ body textarea {
     max-width: 50px;
 }
 
-// No floating "new topic" button
-#create-topic {
-    position: relative;
-}
-
 /***
 Settings for custom header components
 ***/
@@ -138,19 +133,19 @@ justify-content: center;
 }
 }
 .category-title-header {
-&.traefik {
-  background-image: url($bannerTraefik);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  h1 {
-     text-indent: -9999px;
-     width: 242px;
-     height: 77px;
-     background: url($traefikLogoHorizontal) no-repeat;
-     background-size: cover;
+  &.traefik {
+    background-image: url($bannerTraefik);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    h1 {
+      text-indent: -9999px;
+      width: 242px;
+      height: 77px;
+      background: url($traefikLogoHorizontal) no-repeat;
+      background-size: cover;
+    }
   }
-}
 }
 
 /***

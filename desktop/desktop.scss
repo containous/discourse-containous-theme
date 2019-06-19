@@ -110,11 +110,6 @@
   padding: 0;
   margin: 0;
   width: 63px;
-  height: 63px;
-  border-radius: 40px;
-  position: fixed;
-  bottom: 30px;
-  right: 50px;
   z-index: z("composer", "content") - 1;
   background-color: $tertiary;
   color: $secondary;
