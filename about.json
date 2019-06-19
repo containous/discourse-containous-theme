@@ -8,8 +8,9 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "banner-homepage": "assets/banner-homepage.png",
-    "traefik-logo-horizontal": "assets/traefik-logo-horizontal.png"
+    "bannerHomepage": "assets/banner-homepage.png",
+    "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
+    "bannerTraefik": "assets/traefik-banner.png"
   },
   "color_schemes": {
     "Containous": {
