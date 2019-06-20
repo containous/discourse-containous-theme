@@ -8,8 +8,8 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "bannerHomepage": "assets/banner-homepage.png",
     "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
+    "bannerHomepage": "assets/banner-homepage.svg",
     "bannerTraefik": "assets/traefik-banner.svg"
   },
   "color_schemes": {
