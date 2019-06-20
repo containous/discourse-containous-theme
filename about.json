@@ -10,7 +10,7 @@
   "assets": {
     "bannerHomepage": "assets/banner-homepage.png",
     "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
-    "bannerTraefik": "assets/traefik-banner.png"
+    "bannerTraefik": "assets/traefik-banner.svg"
   },
   "color_schemes": {
     "Containous": {
