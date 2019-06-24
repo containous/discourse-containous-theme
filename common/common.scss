@@ -67,8 +67,11 @@ body textarea {
 }
 
 #banner {
-    font-size: 0.8em;
-    max-height: 300px;
+    max-height: 350px;
+}
+
+body[class*="category-"] #banner {
+  display: none;
 }
 
 /***
@@ -153,7 +156,7 @@ div.category-title-header.traefik {
   background-image: url($bannerTraefik);
 
   .category-title-contents {
-    color: #222;  
+    color: #222;
 
     h1 {
       text-indent: -9999px;
