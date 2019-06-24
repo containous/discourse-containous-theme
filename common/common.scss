@@ -108,41 +108,48 @@ Settings for category banners
 .category-heading {
   display: none;
 }
-div[class^="category-title-header"] {
-padding-top: 5em;
-padding-bottom: 4em;
-display: flex;
-text-align: center;
-width: 100%;
-justify-content: center;
-.category-title-contents {
-  max-width: 1110px;
-  width: 100%;
-  text-align: left;
-  padding: 40px;
-  color: #222;
-  svg {
-    height: 1.5em;
-    width: 1.1em;
-    margin-right: 0.25em;
-  }
-}
-.category-title-description {
-  font-size: 1.2em;
-  padding-top: 1em;
-  a,
-  a:visited {
-    color: inherit;
-    text-decoration: underline;
-  }
-}
-}
 .category-title-header {
-  &.traefik {
-    background-image: url($bannerTraefik);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  margin-bottom: -65px !important;
+  padding-top: 5em;
+  padding-bottom: 4em;
+  display: flex;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  background-color: #fff;
+  background-image: url($bannerHomepage);
+  background-repeat:  no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .category-title-contents {
+    max-width: 1110px;
+    width: 100%;
+    text-align: left;
+    padding: 40px;
+    color: #fff;
+    svg {
+      height: 1.5em;
+      width: 1.1em;
+      margin-right: 0.25em;
+    }
+  }
+  .category-title-description {
+    font-size: 1.2em;
+    padding-top: 1em;
+    a, a:visited {
+      color: inherit;
+      text-decoration: underline;
+    }
+  }
+}
+
+div.category-title-header.traefik {
+  background-image: url($bannerTraefik);
+
+  .category-title-contents {
+    color: #222;  
+
     h1 {
       text-indent: -9999px;
       width: 242px;
@@ -152,7 +159,6 @@ justify-content: center;
     }
   }
 }
-
 /***
 Settings for easy footer component
 ***/
@@ -583,7 +589,4 @@ $banner_letter_spacing: 0.01em;
 // Adjust Discourse Category Banners if it is in place
 .category-header #main-outlet {
   padding-top: 5.8572em !important;
-}
-.category-title-header {
-  margin-bottom: -65px !important;
 }
