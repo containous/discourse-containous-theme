@@ -66,8 +66,26 @@ body textarea {
   padding: 1em;
 }
 
+td.topics > div:nth-child(1) {
+    padding-right: 1em;
+}
+
 #banner {
     max-height: 350px;
+}
+
+#banner-content {
+    strong {
+        font-size: 1.2em;
+    }
+
+    a {
+        text-decoration: underline;
+    }
+
+    a:hover {
+        color: #12b5da;
+    }
 }
 
 body[class*="category-"] #banner {
