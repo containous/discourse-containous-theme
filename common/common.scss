@@ -171,7 +171,9 @@ Settings for category banners
   }
 }
 
-div.category-title-header.traefik {
+div.category-title-header.traefik,
+div.category-title-header.traefik-v1, 
+div.category-title-header.traefik-v2 {
   background-image: url($bannerTraefik);
 
   .category-title-contents {
