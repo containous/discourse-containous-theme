@@ -93,6 +93,14 @@ body[class*="category-"] #banner {
   display: none;
 }
 
+// Yaegi logo on homepage
+// The id of the section is the only way to apply the change *only* to Yaegi
+#ember89 {
+  div.category-logo.aspect-image {
+      max-width: 75px;
+  }
+}
+
 /***
 Settings for custom header components
 ***/
@@ -172,7 +180,7 @@ Settings for category banners
 }
 
 div.category-title-header.traefik,
-div.category-title-header.traefik-v1, 
+div.category-title-header.traefik-v1,
 div.category-title-header.traefik-v2 {
   background-image: url($bannerTraefik);
 
