@@ -206,7 +206,7 @@ div.category-title-header.traefik-v2 {
 
 // Yaegi section
 div.category-title-header.test {
-  background-image: url($yaegitest);
+  background-image: url($bannerYaegi);
 
   .d-icon-lock {
       display: none;
@@ -219,7 +219,7 @@ div.category-title-header.test {
     text-indent: -9999px;
     width: 242px;
     height: 77px;
-    background: url($yaegilogotest) no-repeat;
+    background: url($logoYaegi) no-repeat;
   }
 }
 }
