@@ -11,8 +11,8 @@
     "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
     "bannerHomepage": "assets/banner-homepage.svg",
     "bannerTraefik": "assets/traefik-banner.svg",
-    "bannerYaegi": "assets/yaegi-logo.svg",
-    "logoYaegi": "assets/yaegi-banner.svg"
+    "logoYaegi": "assets/yaegi-logo.svg",
+    "bannerYaegi": "assets/yaegi-banner.svg"
   },
   "color_schemes": {
     "Containous": {
