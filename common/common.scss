@@ -95,7 +95,8 @@ body[class*="category-"] #banner {
 
 // Yaegi logo on homepage
 // The id of the section is the only way to apply the change *only* to Yaegi
-#ember74 {
+#ember74,
+#ember129 {
   div.category-logo.aspect-image {
       max-width: 75px;
   }
