@@ -74,3 +74,8 @@ Settings for versatile banner component
     display: none !important;
   }
 }
+
+// Hide Yaegi Banner on Mobile
+div.category-title-header.yaegi {
+  background-image: none;
+}
