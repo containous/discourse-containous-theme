@@ -12,7 +12,8 @@
     "bannerHomepage": "assets/banner-homepage.svg",
     "bannerTraefik": "assets/traefik-banner.svg",
     "logoYaegi": "assets/yaegi-logo.svg",
-    "bannerYaegi": "assets/yaegi-banner.svg"
+    "bannerYaegi": "assets/yaegi-banner.svg",
+    "bannerMaesh": "assets/maesh-banner.svg"
   },
   "color_schemes": {
     "Containous": {

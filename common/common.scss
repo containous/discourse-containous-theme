@@ -93,8 +93,8 @@ body[class*="category-"] #banner {
   display: none;
 }
 
-// Yaegi category's logo on homepage
-a[href*="/c/yaegi"] {
+// Custom categories' logos on homepage
+a[href*="/c/yaegi"], a[href*="/c/maesh"] {
   div.category-logo.aspect-image {
       max-width: 68px;
   }
@@ -223,6 +223,25 @@ div.category-title-header.yaegi {
     }
   }
 }
+
+// Maesh Section
+div.category-title-header.maesh {
+    background-image: url($bannerMaesh);
+
+    .category-title-contents {
+        color: #000000;
+
+        .d-icon-lock {
+            display: none;
+        }
+
+        .category-title-description {
+            padding-top: 0;
+            padding-bottom: 80px;
+        }
+    }
+}
+
 /***
 Settings for easy footer component
 ***/
