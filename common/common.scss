@@ -236,8 +236,16 @@ div.category-title-header.maesh {
         }
 
         .category-title-description {
-            padding-top: 0;
+            padding-top: 30px;
             padding-bottom: 80px;
+        }
+
+        h1 {
+            text-indent: -9999px;
+            width: 242px;
+            height: 77px;
+            background: url($logoMaesh) no-repeat;
+            background-size: 242px 77px;
         }
     }
 }

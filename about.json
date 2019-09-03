@@ -13,6 +13,7 @@
     "bannerTraefik": "assets/traefik-banner.svg",
     "logoYaegi": "assets/yaegi-logo.svg",
     "bannerYaegi": "assets/yaegi-banner.svg",
+    "logoMaesh": "assets/maesh-logo.svg",
     "bannerMaesh": "assets/maesh-banner.svg"
   },
   "color_schemes": {
