@@ -143,8 +143,13 @@ Settings for custom header components
 Settings for category banners
 ***/
 
+$content-width: 1110px;
+
 .category-heading {
   display: none;
+}
+span div[class^="category-title-header"] .category-title-contents {
+  max-width: $content-width;
 }
 .category-title-header {
   margin-bottom: -65px !important;
@@ -161,7 +166,6 @@ Settings for category banners
   background-size: cover;
 
   .category-title-contents {
-    max-width: 1110px;
     width: 100%;
     text-align: left;
     padding: 40px;
@@ -189,15 +193,16 @@ Settings for category banners
   font-family: 'Open Sans Bold', sans-serif;
 }
 
-div.category-title-header.traefik,
-div.category-title-header.traefik-v1,
-div.category-title-header.traefik-v2 {
+div.category-title-header.category-banner-traefik,
+div.category-title-header.category-banner-traefik-v1,
+div.category-title-header.category-banner-traefik-v2 {
   background-image: url($bannerTraefik);
 
   .category-title-contents {
     color: #222;
 
     h1 {
+      display: block;
       text-indent: -9999px;
       width: 242px;
       height: 77px;
@@ -208,7 +213,7 @@ div.category-title-header.traefik-v2 {
 }
 
 // Yaegi section
-div.category-title-header.yaegi {
+div.category-title-header.category-banner-yaegi {
   background-image: url($bannerYaegi);
   background-position: right;
 
@@ -216,6 +221,7 @@ div.category-title-header.yaegi {
     color: #222;
 
     h1 {
+      display: block;
       text-indent: -9999px;
       width: 242px;
       height: 77px;
@@ -225,27 +231,28 @@ div.category-title-header.yaegi {
 }
 
 // Maesh Section
-div.category-title-header.maesh {
+div.category-title-header.category-banner-maesh {
     background-image: url($bannerMaesh);
 
     .category-title-contents {
         color: #000000;
 
         .d-icon-lock {
-            display: none;
+          display: none;
         }
 
         .category-title-description {
-            padding-top: 30px;
-            padding-bottom: 80px;
+          padding-top: 30px;
+          padding-bottom: 80px;
         }
 
         h1 {
-            text-indent: -9999px;
-            width: 242px;
-            height: 77px;
-            background: url($logoMaesh) no-repeat;
-            background-size: 242px 77px;
+          display: block;
+          text-indent: -9999px;
+          width: 242px;
+          height: 77px;
+          background: url($logoMaesh) no-repeat;
+          background-size: 242px 77px;
         }
     }
 }
@@ -616,7 +623,7 @@ $banner_letter_spacing: 0.01em;
       }
 
       .container {
-        max-width: 1110px;
+        max-width: $content-width;
         margin: 0 auto;
       }
     }
