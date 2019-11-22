@@ -492,8 +492,11 @@ $banner_letter_spacing: 0.01em;
     flex-direction: column;
     vertical-align: middle;
 
-    .x-title {
+    h2.x-title {
+        font-size: 28px;
+        text-align: left;
         padding-top: 1em;
+        padding-bottom: 0;
         margin: 0;
     }
 
@@ -504,12 +507,14 @@ $banner_letter_spacing: 0.01em;
       height: 1px;
       background: $secondary_text_color;
     }
-
-    .description p {
+    
+    div.description p {
       font-size: 1.2em;
       margin: 0;
+      padding-left: 65px;
       letter-spacing: $banner_letter_spacing;
       text-align: left;
+      padding-bottom: 3em;
     }
   }
 
