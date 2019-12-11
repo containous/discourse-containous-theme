@@ -3,37 +3,30 @@
 ## Link sections
 
 Products, Everything about Containous Products
-Containous, The company behind Traefik
-Community, The Community
-Support, Commercial Support
-Connect, Get in Touch
+Learn, Understand how to reach your goals
+Company, The company behind Traefik, Maesh, TraefikEE
+Connect, Find the right platform
 
 ## Links
 
-Products, Traefik,https://containo.us/traefik/, blank, Traefik
-Products, Traefik Enterprise Edition, https://containo.us/traefikee/, blank, Traefik Enterprise Edition
-Products, Support, https://containo.us/services/#commercial-support, blank, Commercial Support
-Products, Consulting & Training, https://containo.us/services/#commercial-support, blank, Commercial SupportProducts, Consulting & Training, https://containo.us/services/#consultancy, blank, Consulting & Training
+Products, Traefik, https://containo.us/traefik/, blank, Traefik
+Products, TraefikEE, https://containo.us/traefikee/, blank, TraefikEE
+Products, Maesh, https://containo.us/maesh/, blank, Maesh
+Products, Request a demo, https://info.containo.us/request-demo-traefikee, blank, Request a demo
+Products, Support Center, https://containous.zendesk.com/hc/en-us/restricted?return_to=https%3A%2F%2Fcontainous.zendesk.com%2Fhc%2Fen-us, blank, Support Center
 
-Containous, About Us, https://containo.us/about-us/, blank, About Us
-Containous, Careers, https://containo.us/careers/, blank, Careers
-Containous, Blog, https://blog.containo.us/, blank, Blog
-Containous, Contact, https://containo.us/#contactUsModal, blank, Contact Us
-Containous, Press, https://containo.us/#contactUsModal, blank, Press
-Community, Forum, https://community.containo.us
-Community, Github, https://github.com/containous, blank, Github
-Community, Survey, https://containo.us/surveys/january-2019/, blank, Survey
+Learn, Blog, https://containo.us/blog/, blank, Blog
+Learn, Events, https://containo.us/events/, blank, Events
+Learn, Docs, https://docs.containo.us/, blank, Docs
+Learn, Community, https://community.containo.us/, blank, Community Forum
+Learn, Survey, https://containo.us/surveys/january-2019/, blank, Survey
 
-Support, Commercial Support, https://containo.us/services/, blank, Commercial Support
-Support, Help Center, https://support.containo.us/, blank, Help Center
-Support, Traefik Documentation, https://docs.traefik.io/, blank
-Support, TraefikEE Documentation, https://docs.containo.us, blank/
-Support, Tutorials, https://docs.traefik.io/#the-traefik-quickstart-using-docker, blank
+Company, About, https://containo.us/about-us/, blank, About
+Company, Careers, https://containo.us/careers/, blank, Careers
+Company, Contact Us, https://containo.us/contact-us/, blank, Contact Us
 
-Connect, Containous on Twitter, https://twitter.com/containous, blank, fab-twitter
-Connect, Traefik on Twitter, https://twitter.com/traefik, blank
-Connect, Linkedin, https://www.linkedin.com/company/containous/, blank
-Connect, Youtube, https://www.youtube.com/channel/UCVRyfsfkok4trq6u7RJsY_A, blank
-
-
-
+Connect, Forum, https://community.containo.us/, blank, Forum
+Connect, Github, https://github.com/containous/traefik/, blank, Github
+Connect, Twitter, https://twitter.com/containous, blank, Twitter
+Connect, Linkedin, https://www.linkedin.com/company/containous/, blank, Linkedin
+Connect, Youtube, https://www.youtube.com/channel/UCVRyfsfkok4trq6u7RJsY_A/featured, blank, Youtube
