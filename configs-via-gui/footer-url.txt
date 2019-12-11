@@ -1,0 +1,39 @@
+# Easy Footer
+
+## Link sections
+
+Products, Everything about Containous Products
+Containous, The company behind Traefik
+Community, The Community
+Support, Commercial Support
+Connect, Get in Touch
+
+## Links
+
+Products, Traefik,https://containo.us/traefik/, blank, Traefik
+Products, Traefik Enterprise Edition, https://containo.us/traefikee/, blank, Traefik Enterprise Edition
+Products, Support, https://containo.us/services/#commercial-support, blank, Commercial Support
+Products, Consulting & Training, https://containo.us/services/#commercial-support, blank, Commercial SupportProducts, Consulting & Training, https://containo.us/services/#consultancy, blank, Consulting & Training
+
+Containous, About Us, https://containo.us/about-us/, blank, About Us
+Containous, Careers, https://containo.us/careers/, blank, Careers
+Containous, Blog, https://blog.containo.us/, blank, Blog
+Containous, Contact, https://containo.us/#contactUsModal, blank, Contact Us
+Containous, Press, https://containo.us/#contactUsModal, blank, Press
+Community, Forum, https://community.containo.us
+Community, Github, https://github.com/containous, blank, Github
+Community, Survey, https://containo.us/surveys/january-2019/, blank, Survey
+
+Support, Commercial Support, https://containo.us/services/, blank, Commercial Support
+Support, Help Center, https://support.containo.us/, blank, Help Center
+Support, Traefik Documentation, https://docs.traefik.io/, blank
+Support, TraefikEE Documentation, https://docs.containo.us, blank/
+Support, Tutorials, https://docs.traefik.io/#the-traefik-quickstart-using-docker, blank
+
+Connect, Containous on Twitter, https://twitter.com/containous, blank, fab-twitter
+Connect, Traefik on Twitter, https://twitter.com/traefik, blank
+Connect, Linkedin, https://www.linkedin.com/company/containous/, blank
+Connect, Youtube, https://www.youtube.com/channel/UCVRyfsfkok4trq6u7RJsY_A, blank
+
+
+

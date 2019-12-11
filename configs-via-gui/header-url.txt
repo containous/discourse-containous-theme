@@ -1,0 +1,6 @@
+## Custom Header Links / Theme Settings / Custom header links
+
+Products, Containous Products, https://containo.us/traefik, vdo, blank, remove
+Docs, Traefik Documentation, https://docs.traefik.io, vdo, blank, remove
+Community, Traefik Website, https://traefik.io/#community, vdo, blank, remove
+Company,About the Containous company, https://containo.us/about-us/, vdo, blank, remove
