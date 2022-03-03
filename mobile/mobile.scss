@@ -5,7 +5,7 @@
 //create conversation cards
 .topic-body {
   @include boxShadow;
-  background-color: lighten($secondary, 10%);
+  background-color: var(--lighter-secondary);
   margin-top: 10px;
   padding: 20px;
   border-radius: 2px;
@@ -63,16 +63,6 @@ aside.quote {
 
 .description {
   padding-left: 1em;
-}
-
-/***
-Settings for versatile banner component
-***/
-
-@if $display_on_desktop == "false" {
-  .banner-box {
-    display: none !important;
-  }
 }
 
 // Hide Yaegi Banner on Mobile

@@ -1,0 +1,7 @@
+$d-icon-color: dark-light-choose(scale-color($header_primary, $lightness: 50%), $header_primary);
+
+:root {
+  --d-icon-color-rgba: #{rgba($d-icon-color, 0.7)};
+  --lighter-secondary: #{lighten($secondary, 10%)};
+  --lighter-tertiary: #{lighten($tertiary, 20%)};
+}
