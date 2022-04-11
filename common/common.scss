@@ -222,7 +222,8 @@ div.category-title-header.category-banner-yaegi {
 }
 
 // Maesh Section
-div.category-title-header.category-banner-maesh {
+div.category-title-header.category-banner-maesh, 
+div.category-title-header.category-banner-maeshcategory-banner-traefik-mesh {
     background-image: url($bannerMaesh);
 
     .category-title-contents {
@@ -246,6 +247,33 @@ div.category-title-header.category-banner-maesh {
           background-size: 242px 77px;
         }
     }
+}
+
+// Pilot Section
+div.category-title-header.category-banner-traefik-pilot {
+  background-image: url($bannerPilot);
+
+  .category-title-contents {
+    color: #000000;
+
+    .d-icon-lock {
+      display: none;
+    }
+
+    .category-title-description {
+      padding-top: 30px;
+      padding-bottom: 80px;
+    }
+
+    h1 {
+      display: block;
+      text-indent: -9999px;
+      width: 242px;
+      height: 77px;
+      background: url($logoPilot) no-repeat;
+      background-size: 242px 77px;
+    }
+  }
 }
 
 /***

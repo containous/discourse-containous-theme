@@ -14,7 +14,9 @@
     "logoYaegi": "assets/yaegi-logo.svg",
     "bannerYaegi": "assets/yaegi-banner.svg",
     "logoMaesh": "assets/maesh-logo.svg",
-    "bannerMaesh": "assets/maesh-banner.svg"
+    "bannerMaesh": "assets/maesh-banner.svg",
+    "bannerPilot": "assets/pilot-banner.svg",
+    "logoPilot": "assets/pilot-logo.svg"
   },
   "color_schemes": {
     "Containous": {
