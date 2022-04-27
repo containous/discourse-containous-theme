@@ -1,5 +1,5 @@
 {
-  "name": "Containous-v1",
+  "name": "Traefiklabs-v1",
   "component": false,
   "license_url": "https://github.com/discourse/material-design-stock-theme/blob/master/LICENSE.txt",
   "about_url": "https://meta.discourse.org/t/material-design-stock-theme/47142",
@@ -17,7 +17,7 @@
     "bannerMaesh": "assets/maesh-banner.svg"
   },
   "color_schemes": {
-    "Containous": {
+    "Traefiklabs": {
       "primary": "222222",
       "secondary": "ffffff",
       "tertiary": "210F4E",

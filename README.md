@@ -1,6 +1,6 @@
-# Discourse Theme for Containous Community
+# Discourse Theme for Traefik Labs Community
 
-This repository contains the elements for the Discourse Forum at <https://community.containo.us/>.
+This repository contains the elements for the Discourse Forum at <https://community.traefik.io/>.
 
 The following elements are configured here:
 
