@@ -229,12 +229,18 @@ div.category-title-header.category-banner-traefik-hub {
   .category-title-contents {
     color: #FFF;
 
+    .category-title-description {
+      padding-top: 30px;
+      padding-bottom: 80px;
+    }
+
     h1 {
       display: block;
       text-indent: -9999px;
       width: 242px;
       height: 77px;
       background: url($logoTraefikHub) no-repeat;
+      background-size: 242px 77px;
     }
   }
 }
