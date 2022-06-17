@@ -221,6 +221,24 @@ div.category-title-header.category-banner-yaegi {
   }
 }
 
+// Pilot section
+div.category-title-header.category-banner-traefik-pilot {
+  background-image: url($bannerPilot);
+  background-position: right;
+
+  .category-title-contents {
+    color: #222;
+
+//     h1 {
+//       display: block;
+//       text-indent: -9999px;
+//       width: 242px;
+//       height: 77px;
+//       background: url($logoYaegi) no-repeat;
+//     }
+  }
+}
+
 // Traefik Hub section
 div.category-title-header.category-banner-traefik-hub {
   background-image: url($bannerTraefikHub);
