@@ -11,6 +11,8 @@
     "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
     "bannerHomepage": "assets/banner-homepage.svg",
     "bannerTraefik": "assets/traefik-banner.svg",
+    "logoTraefikHub": "assets/traefik-hub-logo.svg",
+    "bannerTraefikHub": "assets/traefik-hub-banner.jpg",
     "logoYaegi": "assets/yaegi-logo.svg",
     "bannerYaegi": "assets/yaegi-banner.svg",
     "logoMaesh": "assets/maesh-logo.svg",

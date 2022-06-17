@@ -221,6 +221,24 @@ div.category-title-header.category-banner-yaegi {
   }
 }
 
+// Traefik Hub section
+div.category-title-header.category-banner-traefik-hub {
+  background-image: url($bannerTraefikHub);
+  background-position: right;
+
+  .category-title-contents {
+    color: #222;
+
+    h1 {
+      display: block;
+      text-indent: -9999px;
+      width: 242px;
+      height: 77px;
+      background: url($logoTraefikHub) no-repeat;
+    }
+  }
+}
+
 // Maesh Section
 div.category-title-header.category-banner-maesh {
     background-image: url($bannerMaesh);
