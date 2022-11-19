@@ -8,27 +8,23 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "traefik-logo-horizontal": "assets/traefik-logo-horizontal.png",
     "banner-homepage": "assets/banner-homepage.svg",
-    "traefik-banner": "assets/traefik-banner.svg",
-
-    "traefik-hub-logo": "assets/traefik-hub-logo.svg",
-    "traefik-hub-banner": "assets/traefik-hub-banner.jpg",
-
-    "yaegi-logo": "assets/yaegi-logo.svg",
-    "yaegi-banner": "assets/yaegi-banner.svg",
-
-    "maesh-logo": "assets/maesh-logo.svg",
     "maesh-banner": "assets/maesh-banner.svg",
-
-    "traefik-pilot-banner": "assets/traefik-pilot-banner.svg"
+    "maesh-logo": "assets/maesh-logo.svg",
+    "traefik-banner": "assets/traefik-banner.svg",
+    "traefik-hub-banner": "assets/traefik-hub-banner.jpg",
+    "traefik-hub-logo": "assets/traefik-hub-logo.svg",
+    "traefik-logo-horizontal": "assets/traefik-logo-horizontal.png",
+    "traefik-pilot-banner": "assets/traefik-pilot-banner.svg",
+    "yaegi-banner": "assets/yaegi-banner.svg",
+    "yaegi-logo": "assets/yaegi-logo.svg"
   },
   "color_schemes": {
     "Traefiklabs": {
       "primary": "222222",
       "secondary": "ffffff",
-      "tertiary": "210F4E",
-      "quaternary": "12B5DA",
+      "tertiary": "210f4e",
+      "quaternary": "12b5da",
       "header_background": "ffffff",
       "header_primary": "222222",
       "highlight": "ffff4d",
@@ -36,6 +32,8 @@
       "success": "009900",
       "love": "fa6c8d"
     }
+  },
+  "modifiers": {
   },
   "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
 }
