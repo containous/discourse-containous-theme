@@ -151,7 +151,7 @@ span div[class^="category-title-header"] .category-title-contents {
   width: 100%;
   justify-content: center;
   background-color: #fff;
-  background-image: url($bannerHomepage);
+  background-image: url($banner-homepage);
   background-repeat:  no-repeat;
   background-position: center center;
   background-size: cover;
@@ -187,7 +187,7 @@ span div[class^="category-title-header"] .category-title-contents {
 div.category-title-header.category-banner-traefik,
 div.category-title-header.category-banner-traefik-v1,
 div.category-title-header.category-banner-traefik-v2 {
-  background-image: url($bannerTraefik);
+  background-image: url($traefik-banner);
 
   .category-title-contents {
     color: #222;
@@ -197,7 +197,7 @@ div.category-title-header.category-banner-traefik-v2 {
       text-indent: -9999px;
       width: 242px;
       height: 77px;
-      background: url($traefikLogoHorizontal) no-repeat;
+      background: url($traefik-logo-horizontal) no-repeat;
       background-size: cover;
     }
   }
@@ -205,7 +205,7 @@ div.category-title-header.category-banner-traefik-v2 {
 
 // Yaegi section
 div.category-title-header.category-banner-yaegi {
-  background-image: url($bannerYaegi);
+  background-image: url($yaegi-banner);
   background-position: right;
 
   .category-title-contents {
@@ -216,14 +216,14 @@ div.category-title-header.category-banner-yaegi {
       text-indent: -9999px;
       width: 242px;
       height: 77px;
-      background: url($logoYaegi) no-repeat;
+      background: url($yaegi-logo) no-repeat;
     }
   }
 }
 
 // Pilot section
 div.category-title-header.category-banner-traefik-pilot {
-  background-image: url($bannerPilot);
+  background-image: url($traefik-pilot-banner);
   background-position: right;
 
   .category-title-contents {
@@ -234,14 +234,14 @@ div.category-title-header.category-banner-traefik-pilot {
 //       text-indent: -9999px;
 //       width: 242px;
 //       height: 77px;
-//       background: url($logoYaegi) no-repeat;
+//       background: url($yaegi-logo) no-repeat;
 //     }
   }
 }
 
 // Traefik Hub section
 div.category-title-header.category-banner-traefik-hub {
-  background-image: url($bannerTraefikHub);
+  background-image: url($traefik-hub-banner);
   background-position: right;
 
   .category-title-contents {
@@ -257,7 +257,7 @@ div.category-title-header.category-banner-traefik-hub {
       text-indent: -9999px;
       width: 242px;
       height: 77px;
-      background: url($logoTraefikHub) no-repeat;
+      background: url($traefik-hub-logo) no-repeat;
       background-size: 242px 77px;
     }
   }
@@ -265,7 +265,7 @@ div.category-title-header.category-banner-traefik-hub {
 
 // Maesh Section
 div.category-title-header.category-banner-traefik-mesh {
-    background-image: url($bannerMaesh);
+    background-image: url($maesh-banner);
 
     .category-title-contents {
         color: #000000;
@@ -284,7 +284,7 @@ div.category-title-header.category-banner-traefik-mesh {
           text-indent: -9999px;
           width: 242px;
           height: 77px;
-          background: url($logoMaesh) no-repeat;
+          background: url($maesh-logo) no-repeat;
           background-size: 242px 77px;
         }
     }
@@ -315,7 +315,7 @@ Settings for versatile banner component
 $banner_letter_spacing: 0.01em;
 
 .banner-box {
-  background-image: url($bannerHomepage);
+  background-image: url($banner-homepage);
 
   h1, h2, h3 {
     text-align: left;

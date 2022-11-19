@@ -8,20 +8,20 @@
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
   "assets": {
-    "traefikLogoHorizontal": "assets/traefik-logo-horizontal.png",
-    "bannerHomepage": "assets/banner-homepage.svg",
-    "bannerTraefik": "assets/traefik-banner.svg",
+    "traefik-logo-horizontal": "assets/traefik-logo-horizontal.png",
+    "banner-homepage": "assets/banner-homepage.svg",
+    "traefik-banner": "assets/traefik-banner.svg",
 
-    "logoTraefikHub": "assets/traefik-hub-logo.svg",
-    "bannerTraefikHub": "assets/traefik-hub-banner.jpg",
+    "traefik-hub-logo": "assets/traefik-hub-logo.svg",
+    "traefik-hub-banner": "assets/traefik-hub-banner.jpg",
 
-    "logoYaegi": "assets/yaegi-logo.svg",
-    "bannerYaegi": "assets/yaegi-banner.svg",
+    "yaegi-logo": "assets/yaegi-logo.svg",
+    "yaegi-banner": "assets/yaegi-banner.svg",
 
-    "logoMaesh": "assets/maesh-logo.svg",
-    "bannerMaesh": "assets/maesh-banner.svg",
+    "maesh-logo": "assets/maesh-logo.svg",
+    "maesh-banner": "assets/maesh-banner.svg",
 
-    "bannerPilot": "assets/traefik-pilot-banner.svg"
+    "traefik-pilot-banner": "assets/traefik-pilot-banner.svg"
   },
   "color_schemes": {
     "Traefiklabs": {
